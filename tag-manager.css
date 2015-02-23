@@ -1,0 +1,28 @@
+        .react-tag-add-component{
+            display: inline-block;
+        }
+        .react-tag-add-input{
+            width: 210px;            
+        }        
+        .react-tag-option{
+            background-color: white;
+            padding: 5px;
+            margin: 0;
+            width: 200px;
+            cursor: pointer;            
+        }        
+        .react-tag-option:hover{
+            background-color: lightgrey;
+        }
+        .react-tag-option-container{
+            position: absolute;
+            border: 1px solid grey;
+        }
+        .react-tag{
+            border-radius: 5px;
+            padding: 5px;
+            margin: 5px;
+            background-color: #2EB8E6;
+            color: white;
+            cursor: pointer;            
+        }
