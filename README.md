@@ -73,4 +73,27 @@ var MyCustomTagManager = React.createClass({
 });            
 
 ```
+To render the customized tag manager, it's the same as the original one:
+```jsx
+/** @jsx React.DOM */
+
+var tags = [
+    { name: 'Jack', id: 1},
+    { name: 'Betty', id: 2},
+    { name: 'Kelly', id: 3},
+];
+
+var tagOptions = [
+    'apple',
+    'banana',
+    'cat'
+];
+
+React.renderComponent(
+    <MyCustomTagManager tags={tags} tagOptions={tagOptions} />, 
+    document.getElementById('advanced-tag-manager') 
+);
+```
+
+
 The live demo is here: [Custom tag manager example](http://howtomakeaturn.github.io/react-tag-manager/)
